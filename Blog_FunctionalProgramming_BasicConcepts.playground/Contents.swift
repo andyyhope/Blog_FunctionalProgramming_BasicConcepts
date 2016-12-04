@@ -27,12 +27,12 @@ box.size.height = 10
 // MARK: - Pure Functions
 
 // Pure function
-func pure_sum(a: Int, _ b: Int) -> Int {
+func pure_sum(_ a: Int, _ b: Int) -> Int {
     return a + b
 }
 
 // Impure function
-func impure_sum(a: Int, _ b: Int) -> Int {
+func impure_sum(_ a: Int, _ b: Int) -> Int {
     print(a)
     print(b)
     return a + b
